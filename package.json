@@ -3,17 +3,17 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "https://github.com/anasahmed07/getting-fimilliar-with-codespaces",
+  "homepage": "https://anasahmed07.github.io/getting-fimilliar-with-codespaces/",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://anasahmed07ithub.io/getting-fimilliar-with-codespaces'",
+    "build-gh": "parcel build --public-url 'https://anasahmed07.github.io/getting-fimilliar-with-codespaces/'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/microsoft/codespaces-teaching-template-js.git"
+    "url": "git+https://github.com/anasahmed07/getting-fimilliar-with-codespaces"
   },
   "author": "Microsoft",
   "license": "ISC",
